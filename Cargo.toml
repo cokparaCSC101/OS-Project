@@ -1,0 +1,10 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8.5"
+hello_world_lib = { path = "hello_world_lib" }
+bootloader="0.9"
+
